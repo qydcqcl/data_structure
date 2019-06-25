@@ -1,5 +1,10 @@
 package com.example.array;
 
+/**
+ * @author hzq
+ * @date 2019/6/25 16:44
+ * @desc
+ */
 public class OrderArray {
 
     private int[] intArray;

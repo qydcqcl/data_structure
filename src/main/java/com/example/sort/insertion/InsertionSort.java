@@ -49,8 +49,6 @@ public class InsertionSort {
      */
     public void test2(){
         int len = arr.length;
-        int counter = 1;
-
         for(int i = 1; i < len; i++){
             //存储待排序的元素值
             int temp = arr[i];

@@ -46,15 +46,15 @@ public class ShellSort {
      */
     private void shellInsertSort(int beginIndex, int increment) {
         //欲插入元素的下标
-        int targetIndex =beginIndex+increment;
+        int targetIndex = beginIndex + increment;
 
         while (targetIndex < arr.length) {
             int temp = arr[targetIndex];
 
             //前一个元素下标，间隔为increment
-            int previousIndex =targetIndex - increment;
+            int previousIndex = targetIndex - increment;
 
-            while(previousIndex > 0 && arr[previousIndex] > temp){
+            while(previousIndex >= 0 && arr[previousIndex] > temp){
                 //比欲插入数据项大的元素后移一位
                 arr[previousIndex + increment] = arr[previousIndex];
                 previousIndex = previousIndex - increment;
