@@ -50,7 +50,6 @@ public class OrderArray {
                     // 如果当前元素大于目标元素，则将下一个搜索段的最大下标置为当前元素的下标
                     upperBound = curIn;
                 }
-
             }
         }
     }
